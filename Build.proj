@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="BuildProjects" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="Build\Build.props" />
+  <PropertyGroup>
+    <CommitParents>compiled/v1;HEAD</CommitParents>
+  </PropertyGroup>
+  <ItemGroup>
+    <Project Include="PetSerAl.SavedCredentials.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <File Include="LICENSE" />
+  </ItemGroup>
+  <Import Project="Build\Build.targets" />
+</Project>

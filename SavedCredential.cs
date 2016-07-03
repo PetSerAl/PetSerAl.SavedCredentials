@@ -122,7 +122,7 @@ namespace PetSerAl.SavedCredentials {
                 lock(credentialNative) {
                     if(copy==null) {
                         credentialBlob.Clear();
-                    }else {
+                    } else {
                         credentialBlob.Dispose();
                         credentialBlob=copy;
                     }
